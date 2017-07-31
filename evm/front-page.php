@@ -1,0 +1,305 @@
+<?php
+/**
+ * The template for displaying all pages.
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package evm
+ */
+
+get_header(); ?>
+
+
+<div class="banner">
+		<div class="container">
+				<div class="banner_text">
+						<h1>LAND MANAGEMENT NO SMALL TALK</h1>
+						<p><span class="left_line"></span>THEY KNOW HOW TO DO IT RIGHT<span class="right_line"></span></p>
+				</div>
+				<div class="buttons">
+						<a href="#">LEARN MORE</a>
+						<a href="#">GET A QUOTE</a>
+				</div>
+		</div>
+</div>
+<div class="we_provider">
+		<div class="container">
+				<h1 class="heading1">WELCOME TO <b>EVM</b> AUSTRALIA</h1>
+				<h2 class="heading2">LEADERS IN LAND DEVELOPMENT WITH 30 YEARS EXPERIENCE</h2>
+				<p class="pera">First established in 2001, Environmental Vegetation Management has come a long way from starting out as a large-scale tree
+removal company to now offering a diversity of land development services which are used by many clients with satisfactory results.
+At EVM, we’re proud to be an Australian company operating in Central Victoria delivering over 30 years of
+experience in land development. </p>
+		</div>
+</div>
+
+<div class="services">
+		<div class="container">
+				<div class="service_title">
+						<h1>SERVICES WE PROVIDE</h1>
+						<span class="bottom_line"></span>
+						<p>At EVM, we understand the importance of delivering professional, safe, and reliable services to clients across Central Victoria.
+That’s why we’re proud to provide clients with scalable and all-in-one services including: </p>
+				</div>
+
+				<div class="service_feature">
+					 <div class="row">
+						<div class="col-md-3 feature">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/Layer-4.jpg">
+								<div class="set_back">
+								<h1 class="feature_heading">EARTHMOVING</h1>
+								<span class="bottom_style"></span>
+								<p class="bottom_pera">Lorem ipsum dolor sit amet, susci
+pit erat consectetuer arcu amet,
+vel quis, velit felis dolorem</p>
+							 <Div class="clear more_info">
+										<a href="#">MORE INFO</a>
+								</Div>
+								</div>
+						</div>
+
+						<div class="col-md-3 feature ">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/Layer-5.jpg">
+								<div class="set_back">
+								<h1 class="feature_heading">LANDSCAPING</h1>
+								<span class="bottom_style"></span>
+								<p class="bottom_pera">Lorem ipsum dolor sit amet, susci
+pit erat consectetuer arcu amet,
+vel quis, velit felis dolorem</p>
+								<Div class="clear more_info">
+										<a href="#">MORE INFO</a>
+								</Div>
+						</div>
+						</div>
+						<div class="col-md-3 feature">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/Layer-6.jpg">
+								<div class="set_back">
+								<h1 class="feature_heading">ROCK CLEARING</h1>
+								<span class="bottom_style"></span>
+								<p class="bottom_pera">Lorem ipsum dolor sit amet, susci
+pit erat consectetuer arcu amet,
+vel quis, velit felis dolorem</p>
+								<Div class="clear more_info">
+										<a href="#">MORE INFO</a>
+								</Div>
+						</div>
+						</div>
+
+						<div class="col-md-3 feature">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/Layer-7.jpg"/>
+								<div class="set_back">
+								<h1 class="feature_heading">STUMP CLEARING</h1>
+								<span class="bottom_style"></span>
+								<p class="bottom_pera">Lorem ipsum dolor sit amet, susci
+pit erat consectetuer arcu amet,
+vel quis, velit felis dolorem</p>
+								<Div class="clear more_info">
+										<a href="#">MORE INFO</a>
+								</Div>
+						</div>
+						</div>
+						</div>
+				</div>
+
+
+				<div class="view_all">
+
+					 <a href="">VIEW ALL</a>
+
+				</div>
+		</div>
+</div>
+
+<div class="about_emw">
+		<div class="container">
+				<div class="row">
+						<div class="col-md-6 about_pic">
+							 <img src="<?php echo get_template_directory_uri(); ?>/images/Mazuma-wheeler1.png">
+
+						</div>
+						<div class="col-md-6 about_others">
+							 <h1 class="about_heading1">YOUR ALL IN ONE <b>LAND</b>
+<b>DEVELOPMENT</b> SOLUTION</h1>
+							 <span class="about_span"></span>
+							 <h2 class="about_heading2">Leaders in land development with 30 years experience</h2>
+							 <p class="about_pera">At EVM we’re an all-in-one solution for all land development needs, and know what it takes
+to bring any project to life with careful detail and exact planning. All projects carried out by
+EVM follow a strict OH&S, Environmental and Quality Assurance system to ensure optimal
+safety for both our team and the environment.t.</p>
+							 <p class="about_pera">Owner operated, our experience allows us to bring together a comprehensive and scalable
+solution with experience in subdivision, demolition, to road construction and tree mulching.
+We have a unique ability to provide a comprehensive land development service which
+handles every stage of the process from start to finish.</p>
+							 <p class="about_pera">Based between Ballarat and Bendigo, we travel to the surrounding areas and offer services
+for clients further out across Victoria. We’re pleased to provide professional land
+development and earthmoving services for clients who have large or small projects that
+need to be done within a specific timeframe. .</p>
+
+						</div>
+				</div>
+		</div>
+</div>
+
+<div class="call_us">
+		<div class="container">
+				<div class="call_us_details">
+						<h1 class="quote">Need a Quote?</h1>
+						<p class="call_number">Feel free to call us on<span class="call_span"> 0419364699</span></p>
+						<p class="or">OR</p>
+				</div>
+				<div class="call_us_email">
+						<a href="">SEND AN EMAIL</a>
+				</div>
+		</div>
+</div>
+
+<div class="start">
+		<div class="container">
+				<div class="row">
+						<div class="col-md-7 start_left">
+								<h1 class="start_heading">START YOUR <b class="Xb">LAND DEVELOPMENT</b> THE RIGHT WAY</h1>
+								<span class="start_span"></span>
+								<p class="start_pera">EVM is committed to providing clients with professional, high standard earthmoving
+and land development services now and in the future. If you would like more
+information on how EVM can help you and your development needs, please
+call our friendly team today to discuss your requirements.
+We look forward to hearing from you.</p>
+						</div>
+						<div class="col-md-5 start_right">
+
+
+						</div>
+				</div>
+		</div>
+</div>
+
+<div class="proud_numbers">
+		<div class="container">
+				<div class="row">
+						<div class="col-md-3 proud_col" >
+								<h1 class="proud_heading">20</h1>
+								<p class="proud_pera">YEARS EXPERIENCE</p>
+						</div>
+						<div class="col-md-3 proud_col" >
+								<h1 class="proud_heading">4213</h1>
+								<p class="proud_pera">PROJECTS COMPLETED</p>
+						</div>
+						<div class="col-md-3 proud_col" >
+								<h1 class="proud_heading">1245</h1>
+								<p class="proud_pera">HAPPY CLIENTS</p>
+						</div>
+						<div class="col-md-3 proud_col" >
+								<h1 class="proud_heading">37</h1>
+								<p class="proud_pera">AWARD WINNING</p>
+						</div>
+				</div>
+		</div>
+</div>
+
+<div class="logo_evm">
+		<div class="container">
+				<div class="logo_clients">
+						<h1 class="logo_heading">SOME CLIENTS WE HAVE WORKED WITH BEFORE</h1>
+						<span class="logo_span"></span>
+				</div>
+				<div class="row">
+					<div id="owl">
+						<div class="logo_icons testimonial">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/03c87614141ec30ae5a026efff14cad9.png">
+						</div>
+						<div class="logo_icons testimonial">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/1442789827266.png">
+
+						</div>
+						<div class="logo_icons testimonial">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/nestle_main.png">
+
+						</div>
+						<div class="logo_icons testimonial">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/Farmer-Plow-For_Web.png">
+
+						</div>
+						<div class="logo_icons testimonial">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/03c87614141ec30ae5a026efff14cad9.png">
+						</div>
+						<div class="logo_icons testimonial">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/1442789827266.png">
+
+						</div>
+						<div class="logo_icons testimonial">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/nestle_main.png">
+
+						</div>
+						<div class="logo_icons testimonial">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/Farmer-Plow-For_Web.png">
+
+						</div>
+					</div>
+				</div>
+		</div>
+</div>
+
+<div class="contact_us">
+		<div class="container">
+				<div class="contact_area">
+						<h1 class="contact_heading">CONTACT US</h1>
+						<span class="contact_span"></span>
+				</div>
+				<div class="row contact_details">
+						<div class="col-md-8 contact_form">
+<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
+						</div>
+						<div class="col-md-4 contact_info">
+							 <div class="address">
+									 <h1 class="address_heading">ADDRESS</h1>
+									 <p class="address_pera">60 Stoney rises road Smeaton
+									 VIC 3364 Australia </p>
+							 </div>
+							 <div class="address">
+									 <h1 class="address_heading">PHONE</h1>
+									 <p class="address_pera">Alistair 0419 364 699</p>
+							 </div>
+							 <div class="address">
+									 <h1 class="address_heading">EMAIL</h1>
+									 <p class="address_pera">evmaustralia@gmail.com</p>
+							 </div>
+							 <div class="address">
+									 <h1 class="address_heading">WE ARE OPEN</h1>
+									 <p class="address_pera">Open Hours: 8.00-18.00 Mon- Sat</p>
+							 </div>
+
+						</div>
+				</div>
+		</div>
+</div>
+
+<div class="footer_container">
+	 <div class="container">
+			<div class="col-md-3 footer_logo_size">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/Logo-3.png">
+			</div>
+
+			<div class="col-md-9 footer_menu_structure">
+				<nav class="navbar footer_menu_list">
+							<ul class="nav navbar-nav pull-right">
+								<li><a href="#">About EVM</a></li>
+								<li><a href="#">Products & Services</a></li>
+								<li><a href="#">Experience</a></li>
+								<li><a href="#">Capacity</a></li>
+								<li><a href="#">Contact</a></li>
+						</ul>
+				</nav>
+			</div>
+
+	 </div>
+</div>
+
+
+<?php
+//get_sidebar();
+get_footer();

@@ -1,0 +1,158 @@
+/*mobile 22-8-2013***/
+@media(max-width: 767px) {
+  body {
+    padding-right: 0;
+    padding-left:0;
+  }
+
+}
+
+/*mobile*/
+
+
+@media (max-width: 478px) {
+  .nav-collapse {
+    -webkit-transform: translate3d(0, 0, 0);
+    
+  }
+
+}
+
+
+@media (min-width:480px) and (max-width: 567px) {
+  body {
+    padding-right: 0;
+    padding-left:0;
+  }
+
+
+}
+
+
+@media (min-width:568px) and (max-width: 767px) {
+  body {
+    padding-right: 0;
+    padding-left:0;
+  }
+
+}
+
+@media (min-width:768px) and (max-width: 978px) {
+  .nav-collapse {
+    -webkit-transform: translate3d(0, 0, 0);
+    
+  }
+.jf_header > h3 {
+  font-size: 15px;
+}
+.jfx_main_content {
+  padding: 10px 2%;
+  width: 96%;
+}
+.jf_inner_page .item-page .page-header {
+  padding: 4px 0 4px 13%;
+  width: 87%;
+}
+.jf_link li {
+  width: 100%;
+}
+.jf_content_contact > h3 {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+.jf_info > p {
+  font-size: 11px;
+  line-height: 15px;
+}
+.span12.jf_mainmenu {
+  position: relative;
+  z-index: 2147483647;
+}
+.custom.jf_findout_bt p {
+  height: 65px;
+  line-height: 25px;
+
+}
+.body .row-fluid .item-page .jf_findout p {
+  font-size: 1.3em;
+  right: -120px;
+}
+
+
+.jf_findout p a {
+  margin-left: 0;
+
+}
+
+
+.jf_topfooter {
+  padding: 0 2% !important;
+  width: 96.1% !important;
+}
+.toplinks-box.span9 {
+  width: 75.309%;
+  margin-left: 0;
+}
+}
+@media (min-width:797px) and (max-width: 1024px) {
+  .nav-collapse {
+    -webkit-transform: translate3d(0, 0, 0);
+    
+  }
+  .custom.jf_findout_bt p {
+  height: 65px;
+  line-height: 25px !important;
+
+  padding: 10px 5px 5px 5px;
+  font-size: 1.4em;
+    }
+
+    .custom.jf_findout_bt-clients > p {
+      height: 65px;
+      line-height: 25px;
+    }
+.span12.jf_mainmenu {
+  position: relative;
+  z-index: 2147483647;
+}
+.jf_contact .jf_content_contact a {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.jf_topfooter {
+  padding: 0 2% !important;
+  width: 96.1% !important;
+}
+}
+@media (max-width: 767px){
+.dropdown-menu {
+    width: 100%;
+	background-color: none !important;
+}
+.dropdown-menu li{
+    display: inline-block ;
+	float: none !important;
+}
+.dropdown-menu li a {
+    width: 100%;
+}
+.nav-collapse .dropdown-menu {
+	display: block !important;
+    background-color: none !important;
+}
+.dropdown-menu li {
+    background: none !important;
+	border-bottom: none !important;
+}
+.dropdown-menu li a:hover {
+background: none !important;
+text-decoration: underline !important;
+}
+}
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+@media (min-width: 992px) and (max-width: 1335px)
+{
+	.col-md-5{width: 34%}
+	.col-md-7{width: 66%}
+	.col-md-3{width:22%}
+	.blog_widget_right_con{width: 49%}
+	.location_widget{width:25%}
+	.col-md-6{width: 50%}
+	.part_container{    margin-top: 25px;}
+
+}
+@media (max-width: 991px) {
+.accro {
+    border-right: 0;
+		text-align: center;
+}
+.clear {
+    display: none;
+    clear: none;
+}
+.project {
+	border-right: 0;
+}
+.location_widget {
+    width: 215px;
+    float: none;
+    display: block;
+    overflow: hidden;
+    clear: both;
+    margin: auto;
+    text-align: center;
+}
+.location_widget_icon_con {
+    display: none;
+}
+.location_text_con {
+    max-width: 180px;
+    float: none;
+    margin: auto;
+}
+.head_social li {
+    border-left: 0;
+}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-md-5{width: 100%}
+	.left_head{text-align: center;}
+	.col-md-7{}
+	.head_social{    width: 100%;}
+	.email_link_head{width: 35%}
+	.small_scrn{width:7%}
+	.orange_link{width: 37%;text-align: center;}
+	.md_lo{    width: 28%; float: left;}
+	.col-md-9{    width: 65%; float: right;}
+	.business_heading{font-size: 50px;    line-height: 50px;}
+	.second_business_heading{font-size: 14px;    line-height: 16px;}
+	.accro {}
+	.accro_title{}
+	.accro_para{}
+	.plus_icon{}
+	.accro_icon_con{text-align: center;}
+	.service {width: 50%;float:left;}
+	.project{    width: 50%;    margin-top: 25px;    float: left;}
+	.xero_icon{   width: 33%;    float: left}
+	.xero {        width: 67%;    float: left;}
+	.xero_icon_con{margin-top:58px;}
+	.blog_widget_text{    margin: 0px auto;    max-width: 50%;}
+	.orange_filled_button_blog_widget{margin: 5px auto;}
+	.blog_widget{width: 30%;float: left;}
+	.blog_widget_right_con{    width: 51%;}
+	.location_widget{width: 45%;margin-left: 5%;float: left;}
+	.about_widget{width: 100%}
+	.blog_widget_heading{text-align: center}
+	.about_widget_title {text-align: center;}
+	.about_widget_icon_con{    width: 30%;    float: left}
+	.subs_btn{text-align: center;}
+}
+
+@media (min-width: 480px) and (max-width: 767px)
+{
+	.left_head{text-align: center;}
+	.email_link_head{width: 100%; text-align: center;}
+	.small_scrn{width: 10%}
+	.orange_link{width: 60%;text-align: center;}
+	.md_lo{    width: 28%; float: left;}
+	.col-md-9{    width: 65%; float: right;}
+	.business_heading{font-size: 30px;    line-height: 25px;}
+	.second_business_heading{font-size: 12px;    line-height: 12px;}
+	.orange_filled_button{font-size: 12px}
+	.orange_border_button{font-size: 12px}
+	.accro_icon_con{text-align: center;}
+	.xero_icon_con{width: 30%;    margin: 0px auto;}
+	.xero_title {text-align: center;}
+	.xero { width: 100%      }
+	.blog_widget_text{max-width: 100%}
+	.blog_widget_heading {text-align: center;}
+	.orange_hr_left{}
+	.orange_filled_button_blog_widget {margin: 10px auto}
+	.blog_widget{    height: 300px;    margin: 0px auto;}
+	.location_widget{width: 50%;float: left;}
+
+	.about_widget_title {text-align: center;}
+	.about_widget_para {text-align: center;}
+	.about_widget_icon_con{width: 47%;float: left;}
+}
+
+@media (min-width: 320px) and (max-width: 479px)
+{
+	.left_head{text-align: center;}
+	.email_link_head{width: 100%; text-align: center;}
+	.small_scrn{width: 25%}
+	.orange_link{width: 100%;text-align: center;}
+	.md_lo{    width: 45%; float: left;}
+	.col-md-9{    width: 35%%; float: right;}
+	.business_heading{font-size: 30px;    line-height: 25px;}
+	.second_business_heading{font-size: 13px;    line-height: 12px;}
+	.button_con{}
+	.orange_filled_button{font-size: 8px}
+	.orange_border_button{font-size: 8px}
+	.accro_icon_con{text-align: center;}
+	.accro_title{text-align: center;}
+	.accro_para{text-align: center;}
+	.part_heading {margin-top: 80px}
+	.project{margin-top: 20px}
+	.orange_text{font-size: 30px;}
+	.xero_icon_con{    width: 65%;    margin: 0px auto;}
+	.xero_title {text-align: center;}
+	.xero_para{text-align: center;}
+	.blog_widget_heading {font-size:25px;text-align: center;}
+	.widget_para {text-align: center;}
+	.orange_filled_button_blog_widget {margin: 5px auto}
+	.blog_widget{    height: 300px;    margin: 0px auto;}
+	.location_widget{width: 100%;float: left;}
+	.location_widget_title {font-size: 14px;text-align: center;}
+	.widget_para {font-size: 12px;text-align: center;}
+	.about_widget_title {font-size: 16px; text-align: center;}
+	.about_widget_para {font-size: 12px;text-align: center;}
+	.about_widget_icon_con{width: 99%;float: left;}
+	.subs_btn{font-size: 12px;    margin: 0px auto;}
+	.widget_para {width: 100%;text-align: center;}
+
+}

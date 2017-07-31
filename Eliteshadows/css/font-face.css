@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'SourceSansPro-Regular';
+  src: url('../fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/SourceSansPro-Regular.woff') format('woff'), 
+  url('../fonts/SourceSansPro-Regular.ttf')  format('truetype'), 
+  url('../fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BernardoModaBold';
+  src: url('../fonts/BernardoModaBold.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/BernardoModaBold.woff') format('woff'),
+  url('../fonts/BernardoModaBold.ttf')  format('truetype'), 
+  url('../fonts/BernardoModaBold.svg#BernardoModaBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'SourceSansPro-Semibold';
+  src: url('../fonts/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/SourceSansPro-Semibold.woff') format('woff'), 
+  url('../fonts/SourceSansPro-Semibold.ttf')  format('truetype'), 
+  url('../fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'SourceSansPro-Light';
+  src: url('../fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/SourceSansPro-Light.woff') format('woff'),
+  url('../fonts/SourceSansPro-Light.ttf')  format('truetype'), 
+  url('../fonts/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

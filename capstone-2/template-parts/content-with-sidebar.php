@@ -1,0 +1,155 @@
+<?php
+/**
+ * Template part for displaying posts.
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package capstone
+ */
+
+?>
+<div class="jf_content_main">
+                <div class="parallax pr1" data-velocity="-.1"></div>
+                <div class="parallax pr2" data-velocity="-.5" data-fit="100"></div>
+                							
+                 <div class="container">
+                    <div class="row-fluid jfx_showcase">
+                        			<div class="moduletable">
+						<div class="autotitle">
+<div class="jf_top_about">
+<div class="jf_content_about">
+<h1 style="line-height:60px"><?php the_title(); ?></h1>
+   <div class="jf_about">	
+				<?php
+				$second_title = get_field('second_title');
+				$short_description = get_field('short_description');
+				$header_right_image = get_field('header_right_image');
+				?>
+							<?php if($second_title) : ?>
+							<p><strong><?php echo $second_title; ?></p></strong>
+							<?php else : ?>
+							<p><strong>Available Options</strong></p>
+							<?php endif; ?>	
+							<?php if($short_description) : ?>
+							<p><?php echo $short_description; ?></p>
+						    <?php else : ?>
+							<p>Capstone has a comprehensive in-house solution.</p>
+							<?php endif; ?>
+							<?php if($header_right_image) : ?>
+							<img src="<?php echo $header_right_image['url']; ?>" alt="" />
+							<?php else : ?>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/header-support.png" alt="" />
+						    <?php endif; ?>	
+	</div></div>
+</div>
+</div>
+		</div>
+				
+                    </div>
+                </div>      
+    	                       <!--Main Content-->
+                <div class="container">
+    	            <div class="jfx_main_content">
+                        <div class="row-fluid">	                
+							<div id="content" role="main" class="jf_inner_page span8">
+								<!-- Begin Content -->
+							<?php the_content(); ?>	
+								<!-- End Content -->
+							</div>
+							<?php get_sidebar(); ?>
+        				        			<!--<div class="container">	
+                                        	<div class="row-fluid">						
+                   	        	
+                        </div>
+                                        </div>	-->	
+                    </div>
+                </div>
+    		  </div>          
+              <!--End main Content-->
+               	
+               <div class="jf_content_bottom">
+                    <div class="container">
+                    <div class="row-fluid">						
+                        			<div class="moduletable jf_products span4">
+						
+
+<div class="custom jf_products span4"  >
+	<div class="jf_product">
+	<div class="jf_header">
+		<h3>
+			<a href="/about-us/" title="About us">About Us</a></h3>
+		<div class="jf_date jf_new">
+			<p>
+				NEW</p>
+		</div>
+	</div>
+	<div class="jf_intext">
+		<div class="jf_image">
+			<a href="/about-us/" title="About us"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/img_product.png" /></a></div>
+		<div class="jf_text">
+			<p>
+				Our Story</p>
+		</div>
+	</div>
+</div>
+</div>
+		</div>
+			<div class="moduletable jf_blog span4">
+						
+
+<div class="custom jf_blog span4"  >
+	<div class="jf_blog">
+	<div class="jf_header">
+		<h3>
+			<a href="/blog/" title="Blog">The Blog</a></h3>
+		<div class="jf_date">
+			<p>NEW</p>
+		</div>
+	</div>
+	<div class="jf_intext">
+		<div class="jf_image">
+			<a href="/blog/" title="Blog"><img alt="" class="cke-resize" src="<?php echo get_template_directory_uri(); ?>/images/img_blog.png" /></a></div>
+		<div class="jf_text">
+			<span style="font-size:12px;"><span style="color: rgb(255, 255, 255);">Read our latest posts </span></span><!-- <p>Voluptas sit aspernatur aut odit aut fugit, sed quiconsequuntur magni dolores eos qui ration...</p>--></div>
+	</div>
+</div>
+<div id="ckimgrsz" style="left: 0px; top: 30px;">
+	<div class="preview">
+		&nbsp;</div>
+</div>
+</div>
+		</div>
+			<div class="moduletable jf_Process span4">
+						
+
+<div class="custom jf_Process span4"  >
+	<div class="jf_capstone">
+	<div class="jf_header">
+		<h3>
+			<a href="/contact-us/" title="Contact Us">Contact Us</a></h3>
+		<div class="jf_date">
+			<p>
+				NEW</p>
+		</div>
+	</div>
+	<div class="jf_intext">
+		<div class="jf_image">
+			<a href="/contact-us/" title="Contact Us"><img alt="" class="cke-resize" src="<?php echo get_template_directory_uri(); ?>/images/img_capstone.png" /></a></div>
+		<div class="jf_text">
+			<p>
+				Discover more about Capstone today</p>
+		</div>
+	</div>
+</div>
+<div id="ckimgrsz" style="left: 0px; top: 30px;">
+	<div class="preview">
+		&nbsp;</div>
+</div>
+</div>
+		</div>
+			
+                    </div>
+                 </div>
+                </div>
+                        </div>
+                         	</div>

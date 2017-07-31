@@ -1,0 +1,327 @@
+/*Responsive*/
+
+@media (min-width:1400px) {
+.container {max-width: 100%;width: 1366px;}
+
+}
+
+
+
+@media (max-width: 1024px){
+.logo img{ height:40px;}
+.nav > li > a{ font-size:18px;}
+.search-block li{ font-size:16px;}
+.sticky-header.fixed .side_panel{ max-width:210px;}
+.round-bx p { padding:10px; font-size:22px;}
+.carousel-caption { top:5%;}
+.round-bx {  height: 92%;  padding: 27px;  width: 70%;}
+.hww-content p { padding-bottom:5px}
+.hww-content { padding:20px 25px;}
+li.desk-logo{width: 225px;}
+.event-title {padding-top: 0;}
+.contact-us .inner-container-bg .col-xs-offset-3 { margin-left: 22%;}
+.searech-btn { margin-left:25%;}
+.event-search-box { width:60% !important; }
+.reg-promo-button a{ width: auto;}
+.subscribe-news .input-group { margin-right: 10px; width: 61%;}
+.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email.form-control.mrgin-botton {
+  margin-top: 13px;
+}
+.mrgin-botton {
+  margin-bottom: 0 !important;
+}
+
+.round-bx {
+  height: 85%;
+  width: 85%;
+}
+.round-bx h1{padding-left: 33px; padding-right: 33px;}
+.nav > li > a {
+  font-size: 14px;
+}
+
+}
+
+@media (max-width: 991px) {
+
+header{ padding-top:10px; padding-bottom:0;}
+.logo.navbar-nav{ background:none; border:none; padding:0 15px;}
+.desk-logo img {  width: 100%;}
+.desk-logo {  display: inline-block;  vertical-align: top;  width: 158px;}
+
+.round-bx p { font-size:22px; }
+.round-bx h1 { margin-bottom:0;}
+.carousel-caption { top: 8%;}
+.hww-content {  padding: 10px 20px;}
+.hww-content p { font-size:14px;}
+.hww-content h3 { padding-bottom:8px;}
+.navbar-collapse.collapse { padding-bottom:20px;}
+.speaker-img img { width: 100%;}
+.speaker-content { height:80%;  padding: 22px;   width: 99%; margin-top:0;}
+.speaker-content p {  padding: 35px 25px;}
+.nav > li > a {    font-size: 14px;}
+.navbar-nav > li{padding-right:0;}
+li.desk-logo { width: 177px;}
+.event-info{   width: 430px;}
+.copyright-sec > figure{float:left;}
+.contact-us .inner-container-bg .col-xs-offset-3 {  margin-left: 12%;}
+.inner-slider-caption { top:30%;}
+.searech-btn {  margin-left: 23%;}
+.label-select {  width: 47.5%;}
+.colums { display:none;}
+.inner-container-bg{ padding: 14px;}
+.opening-time th, td{padding: 0 6px;}
+.in-event-footer-heading{font-size: 24px;}
+.inner-slider-caption{top:40%;}
+.hww-img {width:39%;}
+.single_event_promo .hww-img{width: 62%;}
+.ot-table .cmn-list{ width: 24%;}
+.cmn-list.date-list { width: 14%;}
+.cmn-list.time-list { width: 34%;}
+.ot-table .cmn-list{font-size: 14px;}
+.contact-content .col-sm-8.col-md-6.col-xs-12.col-xs-offset-3 {
+  margin-left: 18%;
+}
+
+.round-bx {
+  height: 91%;
+  width: 100%;
+}
+.round-bx h1{padding-left: 53px;
+    padding-right: 53px;	}
+.footer-link {
+  float: none;
+  padding-top: 13px;
+  text-align: center;
+}
+.compay_logo {
+  padding-top:0;
+}
+.nav > li > a > img {
+  max-width: 100%;
+}
+li.desk-logo {
+  width: 120px;
+}
+.navbar-nav > li {
+  margin: 0;
+  padding-right: 0;
+}
+li.desk-logo {
+  width: 105px;
+}
+.nav > li > a .fa{  font-size: 20px;}
+.navbar-nav > li a i.handshake_icon{background-size:40% auto; height: 15px;}
+.navbar-nav > li a:hover i.handshake_icon{height: 15px;}
+.navbar-nav > li a:hover i.handshake_icon, .navbar-nav > li.active a i.handshake_icon {
+  background-position: center -15px;
+}
+.contact-us .col-md-8.col-sm-9.col-xs-12.col-xs-offset-2 {
+margin-left:12%
+}
+.product-content iframe {
+  height: 100%;
+  width: 100%;
+}
+ }
+
+
+@media (max-width:767px) {
+	.round-bx {  height: auto;  padding: 8px;  width: auto; border-radius:0;}
+	.round-bx h1{padding-left:0;padding-right:0;}
+	
+
+.navbar-collapse{ padding:0 15px;}
+.top-logo {  display: block;  float: left; }
+li.desk-logo{display:none;}
+.navbar-collapse.collapse{ display:none !important;}
+.navbar-toggle{ display:block;}
+.navbar-collapse.collapse.in{ display:block !important}
+.navbar-collapse{ padding:0 15px; position:relative; z-index:16; border:none !important; box-shadow:none; top:-5px; padding:0;}   
+.navbar-nav{ margin:0; padding:0; background-color:#e1e1e1; width:100%;}
+.nav > li > a::after{ display:none;}
+.nav > li > a .fa{ top:0;}
+.nav > li > a { border-bottom: 1px dashed #ccc;  color: #333;  font-size: 16px;  margin-right: 0;  padding: 10px 15px;}
+.nav > li > a i {  text-align: left;  width: 55px;}
+.navbar-nav > li { float: none; padding-left: 8px;  padding-right: 8px;  text-align: left;  vertical-align: middle;
+  width: 100%;}
+.navbar-default .navbar-nav > li > a { color: #777; width: 100%;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .nav > li > a:hover {
+  background-color: #ffd700 !important; color:#555 !important;}
+.nav > li:last-child a{ border-bottom:none;}
+.navbar-toggle { background-color: #ffd700; border: medium none; border-radius: 0;  color: #fff;
+  font-size: 22px; padding: 3px 10px; position: absolute; right: -14px;top: 10px;}
+.navbar-default .navbar-toggle:hover{ background-color:#333}
+.navbar{ height:50px;}
+.carousel-caption { z-index:1}
+.mobi-logo img { height: 70px;}
+.navbar-default .navbar-toggle:focus { background-color: #333;}
+header { padding-bottom: 10px;}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{ height: auto;}
+.top-wel-head .col-md-9.col-sm-8.col-xs-12.col-xs-offset-2 { margin: 0; width: 100%;}
+.round-bx p{color: #fff;line-height: 22px;}
+.wel-sub-content p{font-size: 16px;}
+.c-sub-sec.visit-us { border-right: 0 none;}
+.copyright-sec { text-align: center;}
+.copyright-sec > figure { float: none;}
+.footer-link { border-top: 1px dashed #4e4e4e; float: none;  margin-top: 10px;  padding-top: 13px;  text-align: center;  width: 100%;}
+.abut-images .owl-theme .owl-controls .owl-buttons div{   top: 46%;}
+.contact-us .inner-container-bg .col-xs-offset-3 { margin-left: 0;}
+.event-search {  padding-top: 20px;}
+.searech-btn {  margin-left: 29%;}
+.event-search-box { font-size:18px;}
+.event-search-box { width:75% !important;}
+.event-detail{   min-height: 400px;}
+.hww-content{ width: 70%;}
+.hww-img {width:49%;}
+.recommended > p{ font-size: 16px;}
+.inner-slider-caption > h3{ font-size: 32px;}
+.event-main-detail{  max-height: 140px;}
+.single_event_promo .hww-img {width: 49%;}
+.contact-content .col-sm-8.col-md-6.col-xs-12.col-xs-offset-3 {margin-left: 0;}
+.subscribe-news {text-align: center;}
+.navbar-nav > li a i.handshake_icon{ margin-bottom: 0;width: 53px;background-position:left bottom;   vertical-align: middle;}
+.navbar-nav > li a:hover i.handshake_icon, .navbar-nav > li.active a i.handshake_icon { background-position: left -44px;width: 53px;}
+.how-we-work .hww-content {
+  height: auto;
+}
+.navbar{ position: inherit;}
+.navbar-toggle{right: 0;}
+.navbar-nav > li a i.handshake_icon {
+  background-size: 45% auto;
+  height: 19px;
+}
+.navbar-nav > li a:hover i.handshake_icon {
+  height: 19px;
+}
+.navbar-nav > li a:hover i.handshake_icon, .navbar-nav > li.active a i.handshake_icon {
+  background-position: left 1px;
+}
+.news-page h4{padding-top:20px;}
+.border-left {
+  border-left: 0 none;border-top:1px solid #ccc; padding-top:15px; margin-top:15px;
+}
+.contact-us .col-md-8.col-sm-9.col-xs-12.col-xs-offset-2 {
+  margin: 0;
+  width: 100%;
+}
+} 
+
+@media (max-width:639px) {
+	
+.round-bx {border-radius: 0;height: auto;  padding: 8px;  width: 100%;}
+.carousel-caption{left: 4%;right:4%;}
+.round-bx h1{font-size: 26px;}
+.cmn-heading{  font-size: 32px;}
+.wel-sub-content p {font-size: 14px;}
+.hww-content { margin: 0;  width: 100%;}
+.how-we-work {  text-align: center;}
+.hww-content {  width: 90%;}
+.hww-content h3{text-align:left;}
+.hww-img {  display: inline-block;  vertical-align: middle;  width: 100%;}
+.hww-img {  margin-top: -84%;  width: 100%;}
+.event-title {    padding-top: 0;}
+.event-info {  top: 130px;}
+.copyright-sec p{display:inline-block;}
+.hww-content h3, .speaker-content span{font-size:18px;}
+.ab-content p{-webkit-column-count: 1; /* Chrome, Safari, Opera */   -moz-column-count: 1; /* Firefox */   column-count: 1;}
+.abut-images .owl-theme .owl-controls .owl-buttons div { top: 40%;}
+.searech-btn {  bottom: 9px;  font-size: 18px;  padding: 3px 8px; margin-left:27.7%;}
+.event-search-box { width:75% !important; height:50px;}
+.inner-slider-caption { top: 25%;}
+.inner-slider-caption > h3 { font-size:36px;}
+.label-select:after { line-height:48px;}
+.label-select:before { top:15px;}
+.label-select { width: auto;}
+.month_select { padding:10px;}
+.event .col-md-7.col-sm-6.col-xs-6, .event .col-md-5.col-sm-6.col-xs-6 { width: 100%;}
+.event-img img { width: 100%;}
+.event-info { position: inherit; top: 0;  width: 100%;   padding: 10px;}
+.event-info p{font-size: 14px;}
+.event-detail { min-height: inherit; position: initial;}
+.event-img > a { display: inline-block; width: 100%;}
+.buy-ticket{position:inherit;margin-top:20px;}
+.event a { padding: 0;}
+.view-mor-btn > a{ padding: 3px 8px;}
+.event-logo { float: none; height: auto;  padding: 0 0 5%;  text-align: center;  width: 100%;}
+.event-heading h3{font-size: 28px;}
+.single_event_promo .hww-img { margin-top: 0; width: 100%;}
+.single_event_promo {display: inline-block; margin: 4% 0;width: 100%;}
+.single_event_promo .hww-content { margin-bottom: 4%; padding: 20px;  width: 100%;}
+.single_event_promo .hww-img img { max-height: 100%; max-width: 100%;}
+.inner-full-width-event-footer .col-md-5.col-sm-5.col-xs-6, .inner-full-width-event-footer .col-md-3.col-sm-3.col-xs-3, .inner-full-width-event-footer  .col-md-4.col-sm-4.col-xs-3 {width: 100%;}
+.opening-time, .follow-event{padding-bottom:15px; margin-bottom:15px; border-bottom:1px solid #ccc;}
+.single_event_promo .how-we-work{text-align:left;}
+.event-main-detail{max-height: 100px;}
+.event-main-detail .inner-slider-caption > h3 {font-size: 24px;}
+.event-main-detail  .inner-slider-caption {top: 40%;}
+.event-heading h3 {font-size: 22px;}
+.event-heading h4{font-size: 18px;}
+.product-content p{font-size: 14px;}
+.reg-promo-button { padding-top: 5%;}
+.speaker-content p {  padding:0;font-size: 20px;}
+.speaker-content{padding:10px;border-radius:0;}
+.event-info {display: inline-block;}
+
+} 
+
+@media (max-width:479px) {
+.nav-tabs > li > a, .nav-tabs > li.active > a{ padding:10px 7px; min-width:auto; font-size:11px; margin-right:3px;}
+.carousel-caption { top: 3%;}
+.carousel-caption {left: 3%; right: 3%;}
+.round-bx p {font-size: 22px; padding: 0;}
+.cmn-heading {font-size: 28px;}
+.speaker-content p {font-size: 22px;line-height: 24px;}
+.event-title h4{ font-size: 18px;}
+.event-info {width: 316px;top: 105px;    padding: 5px;}
+.event-info p{ font-size: 14px; line-height: normal;}
+.buy-ticket {bottom: -132px;}
+.all-event-button .cmn-btn{padding:5px 15px;font-size:16px;}
+.contact-content .col-md-4.col-sm-4.col-xs-6 { width: 100%;}
+.c-sub-sec { border-right: 0; border-bottom: 1px solid #555555;}
+.c-sub-sec {border-bottom: 1px solid #3e3e3e;border-right: 0 none; margin: 0 0 20px;  padding: 0 0 20px;}
+.c-sub-sec.join-us {border-bottom: 0 none;}
+.copyright-sec p{font-size:12px;}
+.heading-footer h5{font-size: 26px;}
+.heading-footer h5 {border-bottom: 1px dashed #826c00;font-size: 26px;padding-bottom: 20px;}
+.abut-images .owl-theme .owl-controls .owl-buttons div {top: 37%;}
+.ab-content p:first-child::first-letter {font-size: 90px;padding: 14px;}
+.inner-container-bg {padding: 22px;}
+.contat-top-heading {padding: 0 0 13px;}
+.contat-top-heading h2{font-size: 26px;}
+.searech-btn { bottom: 5px; font-size: 16px;  margin-left: 27.3%;  padding: 2px 6px;}
+.event-search-box {  border-width: 4px;  height: 38px;}
+.inner-slider-caption { top: 15px;}
+.event-search {  padding-top: 15px;}
+.event .buy-ticket a, .common-btn{padding:8px 20px;font-size:14px;letter-spacing:0.5px;}
+.event-title h4 a { font-size: 18px;}
+.event-title {  padding-bottom: 10px;  padding-top: 15px;}
+.single_event_promo .hww-content{  padding: 5px;}
+.single-event-promo-contact h4{   font-size: 24px;}
+.single-event-promo-contact{padding: 10px;}
+.event-organiser-email a{ font-size: 14px;}
+.reg-promo-button a{font-size: 16px;  line-height: 20px;    padding: 10px 14px;}
+.event-organiser-email i{ font-size: 18px;}
+.subscribe-news .input-group{  width: 60%;}
+.subscribe-news .input-group-addon{ padding: 0 5px 0 0;}
+.subscribe-news .input-group {  margin-bottom: 10px;  width: 100%;}
+.subscribe-btn {  width: auto;}
+.wel-sub-content p {
+ height:auto;
+}
+}
+
+@media (max-width:359px) {
+.event-info {width: 278px;}
+.event{margin-bottom:40px;}
+.speaker-content {height: 100%; width: 100%;}
+.searech-btn { margin-left: 26.3%;}
+.inner-container-bg {padding: 7px;}
+.reg-promo-button a{   font-size: 14px;}
+.wel-sub-content p {
+ height:auto;
+}
+
+}
+
+	

@@ -1,0 +1,615 @@
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('font/ubuntu-medium-webfont.eot');
+    src: url('font/ubuntu-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/ubuntu-medium-webfont.woff') format('woff'),
+         url('font/ubuntu-medium-webfont.ttf') format('truetype'),
+         url('font/ubuntu-medium-webfont.svg#ubuntumedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.jf_art_about{
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-radius: 10px;
+  padding: 12px 28px;
+  float: left;
+}
+
+.jf_art_about .jf_title {
+  background: url("../images/icon_section.png") no-repeat scroll 0 18px transparent;
+  padding: 4px 10%;
+}
+.jf_art_about .jf_intro > p {
+  font-family: ubuntumedium;
+  font-size: 13px;
+  color:#4b4b4b;
+}
+.jf_link a {
+  color: #E5003D;
+  font-family: ubuntumedium;
+  font-size: 13px;
+  margin-left: -14px;
+}
+.jf_title > h3 {
+  font-family: ubuntubold;
+  font-size: 29px;
+  color: #193454;
+}
+.jf_title > p {
+  font-size: 16px;
+  font-family: ubuntubold;
+  color:#4b4b4b;
+}
+.moduletable.jf_your_suport {
+  background: url("../images/bg_left.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  padding: 0 4%;
+    width: 93%;
+    margin-bottom:10px;
+    height: 135px;
+}
+.moduletable.jf_key_ser {
+  background: url("../images/bg_left.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  padding: 0 4%;
+    width: 93%;
+  margin-bottom:10px;
+  height: 135px;
+}
+.moduletable.jf_find_an {
+  background: url("../images/bg_left.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  padding: 0 4%;
+    width: 93%;
+    height: 135px;
+}
+.moduletable.jf_about.span6 {
+  margin-left: 0;
+}
+.custom.jf_about.span6 {
+  margin-left: 0;
+}
+.jf_link, .jf_link_article {
+  float: left;
+  margin-top: 20px;
+  width: 100%;
+}
+.jf_link > ul, .jf_link_article > ul  {
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+
+.jf_link{
+  float: left;
+  margin-top: 20px;
+  padding: 1px 6%;
+  width: 88%;
+}
+
+.jf_link li {
+float: left;
+list-style: none outside none;
+margin-bottom: 10px;
+width: 310px;
+}
+
+
+.jf_link_article li {
+  float: left;
+  list-style: none outside none;
+  margin-bottom: 10px;
+  margin-right: 4%;
+}
+.jf_link_article a {
+  color: #E5003D;
+  font-size: 13px;
+    font-family:ubuntumedium;
+}
+
+.jf_link a {
+  background: url("../images/arrow.png") no-repeat scroll 0 7px transparent;
+  color: #E5003D;
+  font-family: ubuntumedium;
+  font-size: 18px;
+  padding: 0 12px;
+}
+.jf_link a {
+  background: url("../images/arrow.png") no-repeat scroll 0 7px transparent;
+  color: #E5003D;
+  font-family: ubuntumedium;
+  font-size: 18px;
+  padding: 0 0 0 14px;
+}
+.custom.jf_ipadd.span6 {
+  width: 55%;
+  margin: 0;
+}
+.jf_contat_map {
+  background: url("../images/img_map.png") no-repeat scroll 0 0 transparent;
+  float: right;
+  height: 57px;
+  margin-top: -25px;
+  text-align: center;
+  width: 57px;
+}
+.jf_centre_ipad {
+  background: url("../images/bg_centre_ipad.png") repeat-x scroll 0 0 transparent;
+  float: left;
+  height: 88px;
+  width: 100%;
+}
+
+.custom.jf_contact_map {
+  float: left;
+  width: 45%;
+}
+.jf_info {
+  float: left;
+  width: 90%;
+}
+.jf_centre_contact > h3 {
+  color: #FFFFFF;
+  float: left;
+  font-family: ubuntubold;
+  font-size: 16px;
+  margin: 0;
+  width: 100%;
+}
+.jf_info > span {
+  color: #3BC1ED;
+  float: left;
+  font-size: 15px;
+  margin-right: 8px;
+  line-height: 21px; 
+}
+.jf_info > p {
+  color: #FFFFFF;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 21px; 
+}
+.jf_centre_contact {
+  background: url("../images/bg_centre_mapp.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 88px;
+  padding: 0 8%;
+  width: 84%;
+}
+
+.jf_centre_ipad > p {
+  color: #FFFFFF;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  padding: 24px 0;
+  width: 69%;
+}
+.jf_centre_ipad a {
+  background: none repeat scroll 0 0 #E5003B;
+  border-radius: 8px 8px 8px 8px;
+  font-size: 10px;
+  margin-left: 3%;
+  padding: 3px 4%;
+  color:#ffffff;
+}
+.jf_centre_contact a {
+  background: none repeat scroll 0 0 #E5003B;
+  border-radius: 8px 8px 8px 8px;
+  color: #FFFFFF;
+  float: left;
+  font-family: ubuntumedium;
+  font-size: 12px;
+  margin-left: 3%;
+  margin-top: 10px;
+  padding: 2px 4%;
+}
+.jf_img_ipad {
+  float: left;
+  width: 30%;
+}
+/*menu footer*/
+.footer {
+  background: url("../images/bg_footer.png") repeat scroll 0 0 transparent;
+  padding: 25px 0;
+}
+.jf_content_bottom {
+ float: left;
+    width: 100%;
+  margin: 0px auto;
+  background: url(../images/bg_topft.png) repeat;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.nav.menu.jf_footer_about {
+  float: left;
+  margin-top: 10px;
+}
+.jf_footer_about li {
+  float: left;
+}
+.jf_footer_about li a {
+  border-right: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  float: left;
+  font-size: 12px;
+  padding: 0 8px;
+  text-transform: uppercase;
+}
+.jf_footer_about li:last-child a {
+  border-right:none;
+}
+.jf_social ul {
+  float: right;
+  margin: 0;
+}
+.jf_social.span3 {
+  width: 25%;
+}
+.jf_social ul li {
+  float: left;
+  list-style: none outside none;
+  width: 95%;
+}
+.jf_copy {
+  float: left;
+}
+.jf_copy > p {
+  color: #FFFFFF;
+  float: left;
+  font-size: 12px;
+}
+.jf_top_about {
+  color: #FFFFFF;
+  float: left;
+  height: 190px;
+  position: relative;
+  width: 100%;
+margin-bottom: 10px;
+
+}
+.jf_content_about {
+  float: left;
+  height: 100%;
+  width: 60%;
+}
+.jf_about > img {
+  float: right;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.jf_content_about h1 {
+font-family: ubuntu;
+font-size: 48.93px;
+color: rgb(255, 255, 255);
+font-weight: normal;
+line-height: 57px;
+margin-top: 30px;
+/*text-shadow: 2px 2px rgb(29, 79, 143);*/
+
+}
+
+
+
+
+.jf_top_about h2 {
+  float: left;
+  font-size: 56.93px;
+  margin-bottom: 30px;
+  width: 100%;
+  font-family: ubuntubold;
+}
+
+.jf_top_about strong {
+font-size: 25px;
+font-family: ubuntu;
+/*text-shadow: 1px 2px rgb(14, 62, 114);*/
+}
+
+
+.jf_top_about p {
+font-family: Ubuntu;
+font-size: 20px;
+font-weight: normal;
+line-height: 23px;
+/* text-shadow: 1px 2px rgb(14, 62, 114); */
+margin-top: 10px;
+}
+
+.moduletable.jf_your_suport > h3, .moduletable.jf_key_ser > h3, .moduletable.jf_find_an > h3 {
+  color: #FFFFFF;
+  font-size: 26px;
+  margin: 4px 0;
+  padding: 0 14%;
+}
+.moduletable.jf_your_suport > h3{
+
+  background: url("../images/icon_your.png") no-repeat scroll 0 4px transparent;
+}
+.moduletable.jf_key_ser > h3{
+    
+  background: url("../images/icon_key.png") no-repeat scroll 0 4px transparent;
+}
+.moduletable.jf_find_an > h3 {
+    
+  background: url("../images/icon_find.png") no-repeat scroll 0 4px transparent;
+}
+.moduletable.jf_your_suport .jf_suport > p, .moduletable.jf_key_ser .jf_key > p, .moduletable.jf_find_an .jf_find > p {
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+.moduletable.jf_blog {
+  background: url("../images/bg_content_bottom.png") repeat scroll 0 0 transparent;
+  float: left;
+  padding: 5px 0 15px 0;
+}
+.moduletable.jf_products {
+  background: url("../images/bg_content_bottom.png") repeat scroll 0 0 transparent;
+  float: left;
+  padding: 5px 0 15px 0;
+}
+.moduletable.jf_Process {
+  background: url("../images/bg_content_bottom.png") repeat scroll 0 0 transparent;
+  float: left;
+  padding: 5px 0 15px 0;
+}
+.jf_header > h3 {
+  float: left;
+  margin: 0;
+  width: 70%;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.jf_header > h3 a {
+
+  color: #ffffff;
+}
+
+.jf_date {
+background: none repeat scroll 0 0 #E5003B;
+float: right;
+margin-top: 10px;
+text-align: center;
+width: auto;
+min-height: 28px;
+min-width: 60px;
+display: none;
+}
+
+
+.custom.jf_your_suport {
+  float: left;
+  margin-left: 14%;
+}
+.custom.jf_key_ser{
+    float: left;
+  margin-left: 14%;
+}
+.custom.jf_find_an{
+    float: left;
+  margin-left: 14%;
+}
+.jf_date > p {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  padding: 6px 17px;
+}
+.jf_header {
+  background: url("../images/border-top.png") no-repeat left bottom, url("../images/border-bottom_jfx.png") repeat-x scroll 17px bottom transparent;
+  float: left;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.jf_intext {
+  float: left;
+  width: 100%;
+}
+.jf_image {
+  background-color: #FFFFFF;
+  float: left;
+  padding: 7px;
+  margin-right: 7%;
+   width: 32%;
+}
+.jf_text {
+  float: left;
+  width: 50%;
+}
+.jf_text > strong {
+  font-size: 14px;
+  color: #ffffff;
+}
+.jf_text > p {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+/*sidebar*/
+.jf_left_more {
+  background: url("../images/left_bt_more.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 33px;
+  width: 11px;
+}
+.jf_center_more {
+  float: left;
+  height: 33px;
+  width: auto;
+  background: url("../images/centre_bt_more.png") repeat-x scroll 0 0px transparent;
+}
+.jf_right_more {
+    background: url("../images/right_bt_more.png") no-repeat scroll 0 0px transparent;
+  float: left;
+  height: 33px;
+  width:9px;
+}
+.jf_center_more > a {
+  color: #FFFFFF;
+  float: left;
+  font-family: ubuntu;
+  font-weight: normal;
+  padding: 8px 4px;
+  text-align: center;
+  font-size: 15px;
+}
+.jf_inner_page .item-page {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+ /* padding: 12px 28px;*/
+}
+.jf_about .jf_introtext {
+  
+}
+.jf_inner_page .item-page .page-header {
+  background: url("../images/icon_section.png") no-repeat scroll 0 11px transparent;
+  border-bottom: 2px dotted #EEEEEE;
+  padding: 4px 0 4px 60px;
+  margin-top: 0;
+  float: left;
+  width: 90%;
+}
+.jf_inner_page .item-page .page-header > h3 {
+  color: #193454;
+  font-family: ubuntubold;
+  font-size: 29px;
+}
+.jf_inner_page .item-page p{
+  color: #4B4B4B;
+  font-family: ubuntu;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  float: left;
+  padding-right: 50px;
+  clear: both;
+  width: 100%;
+}
+.jf_inner_page .item-page .jf_info p{
+    color:#ffffff;
+}
+.jf_inner_page .item-page .jf_info p a{
+    color:#ffffff;
+}
+.jf_about_right {
+  float: left;
+  margin-top: -80px;
+  width: 40%;
+}
+.jf_ipad .jf_content_ipad {
+  background: url("../images/bg_main_bottom.png") repeat-x scroll 0 0 transparent;
+  border-radius: 10px 10px 10px 10px;
+  float: left;
+  margin-bottom: 10px;
+  padding: 3px 2px 6px 1px;
+  position: relative;
+  z-index: 50;
+}
+.jf_contact .jf_content_contact {
+  background: url("../images/bg_main_bottom.png") repeat-x scroll 0 0 transparent;
+  border-radius: 10px 10px 10px 10px;
+  float: left;
+  padding: 3px 5% 17px;
+  position: relative;
+  width: 88%;
+  z-index: 50;
+  margin-bottom: 10px;
+}
+.jf_contact {
+  float: left;
+  width: 100%;
+}
+.jf_ipad .jf_content_ipad a {
+  background: none repeat scroll 0 0 #E5003B;
+  border-radius: 8px 8px 8px 8px;
+  color: #FFFFFF;
+  font-size: 10px;
+  margin-left: 3%;
+  padding: 3px 4%;
+}
+.jf_contat_map > a {
+  background: none repeat scroll 0 0 #E5003B;
+  border-radius: 6px 6px 6px 6px;
+  color: #FFFFFF;
+  float: left;
+  font-size: 10px;
+  margin: 31px 0 0 10px;
+  padding: 1px 13%;
+}
+.jf_content_contact > h3 {
+  color: #FFFFFF;
+  float: left;
+  font-family: ubuntu;
+  font-size: 16px;
+  margin: 0;
+  width: 100%;
+}
+.jf_ipad .jf_content_ipad > p {
+  color: #FFFFFF;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 0;
+  padding: 16px 0;
+  width: 67.95%;
+}
+.jf_about_right .header {
+  color: #0A62B9;
+  float: left;
+  font-family: ubuntu;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.jf_ipad {
+  float: left;
+  margin-right: 7px;
+}
+/***************/
+.jfx_support div{
+    float: left;
+}
+.jfx_support ul{float: left;}
+.jfx_support ul li{float: left; width: 90%}
+
+
+.item-page ul li {
+    border-bottom: 1px dotted #cccccc;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    width: 100%;
+}
+
+.item-page ul {
+    clear: both;
+    float: none;
+}
+
+#Kunena {
+    line-height: 1.333em;
+    margin: 40px 0 0;
+    padding: 0;
+}
+
+#kunena.layout img {dispolay: none;}
